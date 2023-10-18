@@ -1,0 +1,10 @@
+img {
+  /*max-width garante que a imagem não ficará maior que seu elemento pai, que no caso é o body, deste modo não prejudicando sua resolução*/
+  max-width: 100%;
+  /*display: block exclui o espaço padrão que fica entre as imagens seguidas em um mesmo body*/
+  /*display: block;*/
+}
+
+div {
+  width: 500px;
+}
