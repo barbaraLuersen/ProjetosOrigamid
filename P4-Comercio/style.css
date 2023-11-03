@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr está dizendo que terão duas colunas, cada um de 1fr*/
+  /*fr é uma unidade fracionária, divide o espaço entre os elementos */
+  grid-template-columns: 1fr 1fr;
+  /*gap é o espaço entre as colunas*/
+  gap: 20px;
+}
+
+body {
+  /*Estabelece uma fonte para todo o site*/
+  font-family: Arial;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+h1 {
+  /*Alinha o título ao centro*/
+  text-align: center;
+}
+
+.comprar {
+  /*Para fazer o comprar ficar com características de botão*/
+  display: inline-block;
+  /*Tamanho dos lados do botão em relação ao texto*/
+  padding: 10px 20px;
+  background: #a8f;
+  color: #103;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.item {
+  /*background coloca um fundo*/
+  background: #f7f7f7;
+
+  /*border coloca uma borda no fundo*/
+  border: 1px solid #e7e7e7;
+
+  /*padding faz com que o fundo tenha uma margem, um espaço antes do começo do texto*/
+  padding: 20px;
+
+  /*border-radius arredonda a borda do fundo*/
+  border-radius: 4px;
+}
