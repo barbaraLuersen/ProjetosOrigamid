@@ -6,45 +6,55 @@
     <title>bikcraft</title>
   </head>
   <body>
-    <h1>bikcraft</h1>
-    <div class="menu">
-      <a href="/sobre">SOBRE</a>
-      <a href="/produtos">PRODUTOS</a>
-      <a href="/lojas">LOJAS</a>
-      <a href="/contato">CONTATO</a>
-    </div>
+    <header>
+      <h1>bikcraft</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="/sobre">SOBRE</a></li>
+          <li><a href="/produtos">PRODUTOS</a></li>
+          <li><a href="/lojas">LOJAS</a></li>
+          <li><a href="/contato">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="conteudo">
       <div class="introducao">
-        <span class="detalhe"></span>
-        <h1>Bicicletas Feitas a Mão</h1>
-        <p>
-          A Nimbus Starck é a melhor Bikcraft já criada pela nossa equipe. Ela
-          vem equipada com os melhores acessórios da marca.
-        </p>
-        <a class="verMais" href="/verMais">VER MAIS</a>
+        <div class="descricao">
+          <h1 class="titulo">Bicicletas Feitas a Mão</h1>
+          <article>
+            <p>
+              A Nimbus Starck é a melhor Bikcraft já criada pela nossa equipe.
+              Ela vem equipada com os melhores acessórios da marca.
+            </p>
+          </article>
+          <a class="verMais" href="/verMais">VER MAIS</a>
+        </div>
+        <img class="foto" src="bicicleta.jpg" alt="Bicicleta Preta Bikcraft" />
       </div>
-      <img class="foto" src="bicicleta.jpg" alt="Bicicleta Preta Bikcraft" />
-      <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
-      <div class="vantagens">
-        <div class="vantagens-item">
-          <img class="icone" src="eletrica.svg" />
-          <h3>Motor Elétrico</h3>
-          <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
-        </div>
-        <div class="vantagens-item">
-          <img class="icone" src="velocidade.svg" />
-          <h3>40 km/h</h3>
-          <p>A mais rápida bicicleta eletrica disponível hoje no mercado.</p>
-        </div>
-        <div class="vantagens-item">
-          <img class="icone" src="rastreador.svg" />
-          <h3>Rastreador</h3>
-          <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-        </div>
+
+      <div class="desenvolvimento">
+        <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
+        <ul class="vantagens">
+          <li class="vantagens-item">
+            <img class="icone" src="eletrica.svg" />
+            <h3>Motor Elétrico</h3>
+            <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
+          </li>
+          <li class="vantagens-item">
+            <img class="icone" src="velocidade.svg" />
+            <h3>40 km/h</h3>
+            <p>A mais rápida bicicleta eletrica disponível hoje no mercado.</p>
+          </li>
+          <li class="vantagens-item">
+            <img class="icone" src="rastreador.svg" />
+            <h3>Rastreador</h3>
+            <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="rodape">
+    <footer class="rodape">
       <p>Bikcraft. Alguns Direitos Reservados.</p>
-    </div>
+    </footer>
   </body>
 </html>
